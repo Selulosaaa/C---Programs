@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 // this is how to use variable in c++
 
@@ -19,6 +20,9 @@ int main() {
     // double is used to store decimal numbers
     double d = 3.14;
     std::cout << "hasil dari variabel d adalah: " << d << std:: endl;
-    
+
+    // store a value of string
+    std::string kalimat = "hai semuanya! selamat datang disini!";
+    std::cout << kalimat << std:: endl;
     return 0;
 }
