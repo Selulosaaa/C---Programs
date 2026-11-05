@@ -2,8 +2,7 @@
 #include <string> // agar bisa menyimpan variabel string
 
 int main() {
-    // INPUT DENGAN STRING
-    std::string nama;
+    std::string nama; // store a value input
 
     std::cout << "input nama kamu disini ";
     std::getline(std::cin, nama); // nama adalah tujuan input akan disimpan
