@@ -1,12 +1,28 @@
 #include <iostream>
-#include <string>
+#include <string> // agar bisa menyimpan variabel string
 
 int main() {
-    std::string nama; // store a value input
+    // INPUT DENGAN STRING
+    std::string nama;
 
-    std::cout << "masukkan nama kamu: ";
-    std::getline(std::cin, nama); // untuk membaca input dan menyimpan di variabel nama
+    std::cout << "input nama kamu disini ";
+    std::getline(std::cin, nama); // nama adalah tujuan input akan disimpan
 
-    std::cout << "halo " << nama <<std::endl;
+    std::cout << "hai selamat datang " << nama << std::endl;
+    
+    // INPUT DENGAN INT ATAU DOUBLE
+    // tidak seperti string, int atau double bisa langsungan(tanpa std)
+
+    int angka;
+    double angka2;
+    
+    std::cout << "input angka kamu";
+    std::cin >> angka; // langsung tanpa std dan getline dan langsung dapat disimpan
+
+    std::cout << "input angka desimal";
+    std::cin >> angka2;
+
+    std::cout << "angka pertama: " << angka << std::endl;
+    std::cout << "angka kedua: " << angka2 << std:: endl;
     return 0;
 }
