@@ -21,5 +21,9 @@ int main () {
     
     // std::sqrt(x) untuk akar kuadrat
     std::cout << std::sqrt(36) << std::endl; // 6
-    return 0;
+
+    // std::pow(x, y) adalah sebuah command untuk perpangkatan
+    // x adalah angka yang akan dipankatkan
+    // y adalah angka pangkat
+    std::cout << std::pow(x, 30) << std::endl; // 8.67362e+41
 }
