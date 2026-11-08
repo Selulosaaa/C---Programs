@@ -18,6 +18,8 @@ int main () {
     // std::ceil(x) untuk pemvulatan ke atas
     std::cout << "hasil pembulatan ke bawah" << std::floor(z) << std::endl; // 8
     std::cout << "hasil pembulatan ke atas" << std::ceil(z) << std::endl; // 9
-
+    
+    // std::sqrt(x) untuk akar kuadrat
+    std::cout << std::sqrt(36) << std::endl; // 6
     return 0;
 }
