@@ -16,8 +16,8 @@ int main () {
     // std::floor(x) dan std::ceil(x) adalah sebuah sistem pembulatan
     // std::floor(x) untuk pembulatan ke bawah
     // std::ceil(x) untuk pemvulatan ke atas
-    std::cout << std::floor(z) << std::endl;
-    std::cout << std::ceil(z) << std::endl;
-    
+    std::cout << "hasil pembulatan ke bawah" << std::floor(z) << std::endl; // 8
+    std::cout << "hasil pembulatan ke atas" << std::ceil(z) << std::endl; // 9
+
     return 0;
 }
