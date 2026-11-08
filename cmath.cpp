@@ -26,4 +26,7 @@ int main () {
     // x adalah angka yang akan dipankatkan
     // y adalah angka pangkat
     std::cout << std::pow(x, 30) << std::endl; // 8.67362e+41
+
+    // std::fmod(x, y) sisa pembagian desimal
+    std::cout << std::fmod(y, 6) << std::endl;
 }
