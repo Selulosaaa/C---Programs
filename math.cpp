@@ -14,6 +14,10 @@ int main() {
     double a = x / y; // angka dengan desimal
     std::cout << "hasil pembagian bulatnya adalah: " << b << std:: endl;
     std::cout << "hasil pembagian dengan desimal adalah: " << a << std:: endl;
-    
+
+    int angka1 = 10;
+    int angka2 = 30;
+    std::cout << "hasil perkaliannya adalah " << angka1 * angka2 << std:: endl;
+
     return 0;
 }
